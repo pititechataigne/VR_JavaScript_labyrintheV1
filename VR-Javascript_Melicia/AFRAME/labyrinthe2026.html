@@ -1,0 +1,102 @@
+<html>
+
+  <head>
+    <script src="https://aframe.io/releases/1.7.0/aframe.min.js"></script> 
+    <!-- site pour A frame -->
+  </head>
+
+
+  <body>
+
+    <a-scene>
+
+      <a-assets>
+        
+        <video id="video1" class="nuage" src="videos_mur/video1.mp4" autoplay loop muted playsinline></video>
+        <video id="video2" class="nuage" src="videos_mur/video2.mp4" autoplay loop muted playsinline></video>
+        <video id="video3" class="nuage" src="videos_mur/video3.mp4" autoplay loop muted playsinline></video>
+        <video id="video4" class="nuage" src="videos_mur/video4.mp4" autoplay loop muted playsinline></video>
+        <video id="video5" class="nuage" src="videos_mur/video5.mp4" autoplay loop muted playsinline></video>
+        <video id="video6" class="nuage" src="videos_mur/video6.mp4" autoplay loop muted playsinline></video>
+        <video id="video7" class="nuage" src="videos_mur/video7.mp4" autoplay loop muted playsinline></video>
+        <video id="video8" class="nuage" src="videos_mur/video8.mp4" autoplay loop muted playsinline></video>
+        <video id="video9" class="nuage" src="videos_mur/video9.mp4" autoplay loop muted playsinline></video>
+        <video id="video10" class="nuage" src="videos_mur/video10.mp4" autoplay loop muted playsinline></video>
+        <video id="video11" class="nuage" src="videos_mur/video11.mp4" autoplay loop muted playsinline></video>
+        <video id="video12" class="nuage" src="videos_mur/video12.mp4" autoplay loop muted playsinline></video>
+        <video id="video13" class="nuage" src="videos_mur/video13.mp4" autoplay loop muted playsinline></video>
+        <video id="video14" class="nuage" src="videos_mur/video14.mp4" autoplay loop muted playsinline></video>
+        <video id="video15" class="nuage" src="videos_mur/video15.mp4" autoplay loop muted playsinline></video>
+        <video id="video16" class="nuage" src="videos_mur/video16.mp4" autoplay loop muted playsinline></video>
+        <video id="video17" class="nuage" src="videos_mur/video17.mp4" autoplay loop muted playsinline></video>
+        <video id="video18" class="nuage" src="videos_mur/video18.mp4" autoplay loop muted playsinline></video>
+        <video id="video19" class="nuage" src="videos_mur/video19.mp4" autoplay loop muted playsinline></video>
+        
+      </a-assets>
+
+    <!-- forme -->
+      <!--tout mes murs-->
+         <a-plane id="A"  material= "side: double; src: #video1" position="-1.99766 1.4902 -0.00403" rotation="0 180 0" width="4" height="3" geometry="width: 2.72" scale="1.1 1 1">
+         </a-plane>
+         <a-plane id="A2" material="side: double; src: #video12;transparent: true; opacity: 0.5" position="-1.99766 1.4902 -0.00403" rotation="0 180 0" width="4" height="3" geometry="width: 2.72" scale="1.1 1 1"></a-plane>
+
+         <a-plane id="B" material= "src: #video2; side: double"  position="-1.50824 1.51317 -3.99381" rotation="0 180 0" width="4" height="3">
+         </a-plane>
+         <a-plane id="B2" material= "src: #video13; side: double;transparent: true; opacity: 0.5"  position="-1.50824 1.51317 -3.99381" rotation="0 180 0" width="4" height="3">
+         </a-plane>
+
+         <a-plane id="C" material= "src: #video3;side: double" position="-3.49472 1.49423 -1.99774" rotation="0 90 0" width="4" height="3">
+         </a-plane>
+         <a-plane id="C2" material= "src: #video15;side: double;transparent: true; opacity: 0.5" position="-3.49472 1.49423 -1.99774" rotation="0 90 0" width="4" height="3">
+         </a-plane>
+
+         <a-plane id="D" material= "src: #video4; side: double" position="0.48732 1.49296 -1.51002" rotation="0 -90 0" width="4" height="3" scale="0.75 1 1">
+         </a-plane>
+         <a-plane id="D2" material= "src: #video17; side: double;transparent: true; opacity: 0.5" position="0.48732 1.49296 -1.51002" rotation="0 -90 0" width="4" height="3" scale="0.75 1 1">
+         </a-plane>
+       
+         <a-plane id="E" material= "src: #video5; side: double"position="-0.50043 1.4902 -2.99408" rotation="0 180.02 0" width="4" height="3" geometry="width: 2.72" scale="0.74 1 1">
+         </a-plane>
+         <a-plane id="E2" material= "src: #video18; side: double;transparent: true; opacity: 0.5"position="-0.50043 1.4902 -2.99408" rotation="0 180.02 0" width="4" height="3" geometry="width: 2.72" scale="0.74 1 1">
+         </a-plane>
+         <a-plane id="F" material= "src: #video6; side: double"position="-2.48568 1.50881 -2.96592" rotation="0 -90 0" width="4" height="3" geometry="width: 2.31" scale="0.9 1 1">
+         </a-plane>
+         <a-plane id="F2" material= "src: #video19; side: double;transparent: true; opacity: 0.5"position="-2.48568 1.50881 -2.96592" rotation="0 -90 0" width="4" height="3" geometry="width: 2.31" scale="0.9 1 1">
+         </a-plane>
+         <a-plane id="G" material= "src: #video7; side: double"position="-1.49558 1.48425 -2.00083" rotation="0 90 0" width="4" height="3" geometry="width: 2.99" scale="0.67 1 1">
+         </a-plane>
+         <a-plane id="G2" material= "src: #video14; side: double;transparent: true; opacity: 0.5"position="-1.49558 1.48425 -2.00083" rotation="0 90 0" width="4" height="3" geometry="width: 2.99" scale="0.67 1 1">
+         </a-plane>
+         <a-plane id="H" material= "src: #video8; side: double"position="-0.50449 1.48425 -0.99907" rotation="0 -90 0" width="4" height="3" geometry="width: 1.99">
+         </a-plane>
+         <a-plane id="H2" material= "src: #video16; side: double;transparent: true; opacity: 0.5"position="-0.50449 1.48425 -0.99907" rotation="0 -90 0" width="4" height="3" geometry="width: 1.99">
+         </a-plane>
+         <a-plane id="I" material= "src: #video9; side: double" position="-2.94335 1.48425 -0.99765" rotation="0 -180 0" width="4" height="3" geometry="width: 0.57" scale="1.93 1 1">
+         </a-plane>
+         <a-plane id="I2" material= "src: #video15; side: double;transparent: true; opacity: 0.5" position="-2.94335 1.48425 -0.99765" rotation="0 -180 0" width="4" height="3" geometry="width: 0.57" scale="1.93 1 1">
+         </a-plane>
+        
+         <!--idee : mes murs avec textures transparentes, diff couches, qui bougent (animation/video au lieu de img)= effet de tortion quand on avance-->
+         
+      
+    <!-- envirronement -->  
+     
+     <a-plane id="sol"  material= "side: double; src: #video10" position="-1.49727 0 -1.99218" rotation="-90 0 0" width="4" height="4" >
+     </a-plane>
+     <a-plane id="sol2"  material= "side: double; src: #video11;transparent: true; opacity: 0.5" position="-1.49727 0 -1.99218" rotation="-90 0 0" width="4" height="4" >
+     </a-plane>
+     <a-plane id="toit" material= "side: double; src: #video11"position="-1.49727 3.00059 -1.99218" rotation="-90 0 0" width="4" height="4">
+     </a-plane>
+     <a-plane id="toit2" material= "side: double; src: #video17;transparent: true; opacity: 0.5"position="-1.49727 3.00059 -1.99218" rotation="-90 0 0" width="4" height="4">
+     </a-plane>
+
+      <a-sky 
+      color="#ECECEC">
+      </a-sky>
+
+      
+    </a-scene>
+
+ </body>
+
+</html>

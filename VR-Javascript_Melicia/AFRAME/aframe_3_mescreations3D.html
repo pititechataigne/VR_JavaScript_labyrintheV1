@@ -1,0 +1,27 @@
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Gobelin 3D</title>
+    <script src="https://aframe.io/releases/1.8.0/aframe.min.js"></script>
+  </head>
+
+  <body>
+    <a-scene>
+
+      <a-assets>
+        <a-asset-item id="gobelin-model" src="./mescreations/Gobelin1.glb"></a-asset-item>
+      </a-assets>
+
+      
+      <a-entity id="gobelin" gltf-model="./mescreations/Gobelin1.glb" position="-0.187 0.352 1" scale="3 3 3" rotation="0 90 0">
+      </a-entity>
+
+      <a-plane position="0 0 0" rotation="-90 0 0" width="4" height="4" color="red" material="side: double">
+      </a-plane>
+
+      <a-camera position="0 1.6 5"></a-camera>
+
+    </a-scene>
+  </body>
+</html>
