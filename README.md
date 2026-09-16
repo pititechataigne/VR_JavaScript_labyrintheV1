@@ -1,5 +1,5 @@
 # DNMADE2_Melicia
-##LABYRINTHE
+##MELICIA
 
 ### AFRAME
 * [labyrintheV1] (./VR-Javascript_Melicia/AFRAME/labyrinthe2026.html)
