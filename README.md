@@ -2,4 +2,4 @@
 ##LABYRINTHE
 
 ### AFRAME
-* [labyrintheV1] (./labyrinthe2026.html)
+* [labyrintheV1] (./VR-Javascript_Melicia/AFRAME/labyrinthe2026.html)
