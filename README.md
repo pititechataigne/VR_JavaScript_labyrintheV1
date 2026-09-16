@@ -1,5 +1,5 @@
-# DNMADE2_Melicia
-## MELICIA
+## Melicia TALAVERA
 
-### AFRAME
-* [labyrintheV1] (./VR-Javascript_Melicia/AFRAME/labyrinthe2026.html)
+### LABYRINTHE
+* [labyrintheV0] (./LABYRINTHE/labyrinthe2026.html)
+* [labyrintheV1] (./LABYRINTHE/labyrinthe2026_V1.html)
