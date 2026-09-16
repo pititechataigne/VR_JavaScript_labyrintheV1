@@ -2,4 +2,4 @@
 ##LABYRINTHE
 
 ### AFRAME
-* [labyrintheV1] (http://github.com/pititechataigne/VR-Javascript_Melicia/labyrinthe2026.html)
+* [labyrintheV1] (https://github.com/pititechataigne/VR-Javascript_Melicia/labyrinthe2026.html)
