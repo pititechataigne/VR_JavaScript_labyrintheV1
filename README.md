@@ -2,4 +2,4 @@
 ##LABYRINTHE
 
 ### AFRAME
-* [labyrintheV1] (./labyrinthe.html)
+* [labyrintheV1] (./labyrinthe2026.html)
